@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context)=> BubbleTeaShop(),
       builder:(context, child ) =>  MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.brown),
+      debugShowCheckedModeBanner: true,
+      theme: ThemeData(primarySwatch: Colors.yellow),
       home :HomePage(),
    ),
   );
